@@ -1,0 +1,31 @@
+#button_container{
+    display:flex;
+}
+button{
+    flex:1;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    height: 250px;
+    border-radius: 12px;
+    justify-content: center;
+    padding: 50px;
+    gap: 10px;
+    margin: 20px;
+    color: white;
+}
+#rock{
+    background-color: rgb(125, 17, 17);
+}
+#paper{
+    background-color: rgb(9, 89, 9);
+}
+#scissors{
+    background-color: rgb(13, 13, 101);
+}
+
+#results{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    font-size: 30px;
+}
